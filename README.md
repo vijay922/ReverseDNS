@@ -1,18 +1,12 @@
-# ReverseDNS
-Reverse DNS tool
 
-Reverse DNS tool Script that takes a CIDR or a file with a list of CIDRs, performs reverse DNS with hakrevdns, dnsx, cero, and gdn, and then runs httprobe on the results
+# Reverse DNS Tool Script
+# This script takes a CIDR or a file with a list of CIDRs,
+# performs reverse DNS using hakrevdns, dnsx, cero, gdn and then runs httprobe on the results.
+# Credits to the original creator: @projectdiscovery @hakluke @glebarez @kmskrishna @ipk1 Krishna Iyengar
 
-credits to original creator of the tool
+# Usage: chmod +x install.sh
+# bash install.sh
+# go build -o ReverseDNS main.go
+# chmod +x ReverseDNS
+# ./ReverseDNS 104.85.4.91/24 or CIDR list
 
-@hakluke @glebarez @kmskrishna @ipk1 Krishna Iyengar
-
-Usage: chmod +x install.sh
-
-bash install.sh
-
-go build -o revdns main.go
-
-chmod +x revdns
-
-./revdns CIDR or CIDR list
